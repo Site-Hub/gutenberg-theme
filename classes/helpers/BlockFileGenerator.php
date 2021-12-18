@@ -30,7 +30,7 @@ class BlockFileGenerator {
    * 
    */
   public function generate () {
-    $blockDirPath = get_template_directory() . '/blocks/' . $this->$blockType;
+    $blockDirPath = get_template_directory() . '/blocks/' . $this->blockType;
 
     if ( is_dir( $blockDirPath ) ) return;
 
