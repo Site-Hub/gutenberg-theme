@@ -8,7 +8,7 @@
  */
 $id = $block['name'] . '-' . $block['id'];
 $blockName = str_replace('acf/', '', $block['name']);
-$classes = 'shblock shblock--' . $blockName;
+$classes = 'pxblock pxblock--' . $blockName;
 $blockFields = get_fields();
 
 if (!empty($block['className'])) $classes .= ' ' . $block['className'];

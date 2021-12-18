@@ -1,4 +1,4 @@
-export const PX*PX_BLOCK_NAME* = (function() {
+export const SH*SH_BLOCK_NAME* = (function() {
 	'use strict';
 
 	function init() {

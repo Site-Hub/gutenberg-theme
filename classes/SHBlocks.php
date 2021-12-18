@@ -40,6 +40,18 @@ class SHBlocks {
 				'supports' => [
 					'align' => false
 				]
+			],
+			[
+				'name'            => 'accordion',
+				'title'           => __('Accordion'),
+				'description'     => __('A custom accordion block.'),
+				'render_template' => get_template_directory() . '/blocks/accordion/accordion.php',
+				'category'        => 'custom-blocks',
+				'icon'            => 'align-center',
+				'keywords'        => ['accordion', 'display'],
+				'supports' => [
+					'align' => false
+				]
 			]
     ];
 
